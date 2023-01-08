@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container{
+            scroll-snap-type: y mandatory;
+            scroll-snap-points-y: repeat(100vh);
+            overflow: scroll;
+            height: 100vh;
+        }
+        .page{
+            scroll-snap-align: start;
+height: 100vh;
+width: 100%;
+
+        }
+        .page:nth-child(odd){
+            background-color: aquamarine;
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div>
+    </div>
+    
+</body>
+</html>
