@@ -464,7 +464,9 @@ border-top-right-radius:20px ;
 a{
   text-decoration: none !important;
 }
-
+.displayNone{
+  display: none;
+}
 
 @media screen and (max-width: 992px) {
   .allPage {
@@ -482,7 +484,15 @@ a{
   }
 
 }
+@media screen and (min-width: 992px) {
+  .displayNone{
+    display: block;
+  }
+.displayNoneOnDesktop{
+  display: none;
+}
 
+}
 
 
 .fa-tiktok {
